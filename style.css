@@ -115,3 +115,28 @@ a {
     font-weight: 600;
 
 }
+
+@media (max-width:500px) {
+
+    .container {
+        flex-direction: column;
+        height: inherit;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    body {
+        height: inherit;
+    }
+    
+    .container-left {
+        width: 100%;
+        border-radius: 0 0 20px 20px;
+        flex-wrap: wrap;
+    }
+    
+    .container-right {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    }
